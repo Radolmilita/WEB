@@ -1,0 +1,7 @@
+#buttonF {
+    width: 50%;  height: 30%;
+    background: #fc0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    padding: 10px;
+    font-size:1.4vw;
+}

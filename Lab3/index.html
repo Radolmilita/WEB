@@ -1,0 +1,47 @@
+<!---index.html-->
+<!--Created by Valerij Dimitriev-->
+<!--on 2021.09.24-->
+
+<html>
+    <head>
+        <title>Табулирование функции</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel = "stylesheet" href = "L3.css">
+        <script src="L3.js"></script>
+</head>
+<body>
+<h1 align = "center">Табулирование функции y=4x<sup>3((x-1)<sup>2</sup>)<sup>0,3333</sup></sup></H1>
+<form>
+    <div align = "center">
+    <p> Введите значение a левого конца отрезка табулирования
+    <input name="lowerBorder" type="text" size="3" value="-10" > </p>
+    <p>Введите значение b правого конца отрезка табулирования
+    <input name="upperBorder" type="text" size="3" value="10"> </p>
+    <p>Введите значение h шага табулирования
+    <input name="stepValue" type="text" size="3" value="2.5"> </p>
+    <p><input type="button" value="Протабулировать" onClick="tabulateWithFor()">
+    <input type="button" value="Очистить" onClick="clear()">
+    </p>
+    <p><input type="button" value="Протабулировать с помощью WHILE" onClick="tabulateWithWhile()"></p>
+    <input type="button" value="Протабулировать с помощью DO-WHILE" onClick="tabulateWithDo()">
+    <br>
+    <input type="button" value="нарисовать график" onClick="draw()">
+    <br>
+    <select name='tabList' size = 3 >
+</select>
+   <p> <select name='tabList1' size = 3>
+    </select>
+    </p>
+    <br>
+    <select name = 'tabList2' size = 3>
+        </select>
+
+        <br><br>
+
+        <canvas width=300 height=300></canvas>
+</form>
+</div>
+</body>
+</html>
+
+

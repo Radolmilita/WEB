@@ -1,0 +1,18 @@
+/*
+L3.css
+Created by Valerij Dimitriev
+on 2021.09.24
+*/
+
+canvas {
+    border: 1px solid black;
+}
+input[type="text"] {
+    font-size: 14;
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+
+ input [type="button"]{
+    font-size: 18px;
+ }
