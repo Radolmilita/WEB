@@ -1,0 +1,36 @@
+<!---Lab2.html-->
+<!--Created by Valerij Dimitriev-->
+<!--on 2021.09.08-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Registration form</title>
+        <link rel = "stylesheet" href = "Lab2.css">
+        <script src="Lab2.js"></script>
+    </head>
+    <body>
+          <form name="registration">
+             <p><b>Введите ваше имя:</b><br>
+                <input type="text" size="40" name="name">
+            <p><b>Введите фамилию</b><br>
+                <input type="text" size="40" name="surname">
+            <p><b>Введите логин</b><br>
+                <input type="text" size="40" name="login">
+            <p><b> Введите пароль </b><br>
+                <input type="password" size="40" name="password">
+            <p><b>Повторите пароль</b><br>
+                <input type="password" size="40" name="repeatPassword">
+            <p><b>Email </b><br>
+                <input type="text" size="50" name="mail">
+            <p><b>Пол</b><br>
+                <select id="sex" name="sex" >
+                    <option value="Empty"> </option>
+                    <option value="male">Мужчина</option>
+                    <option value="female">Женщина</option>
+                </select>
+                <p></p>
+                <input type="submit" text="Сохранить" id="submittion" onclick="validateForm()">
+
+            </form>
+    </body>
+</html>
